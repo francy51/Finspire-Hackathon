@@ -1,26 +1,45 @@
-# Express-Mongo-JWT-Auth
-Rest API with JWT Authentication &amp; Authorization in NodeJs and Express + MongoDB.  Features: Register, Login, Jwt Token, Multi Tokens, Logged User, Logout One or All Tokens
+# Finspire-Hackathon
 
-## Features:
+> 
 
-* CRUD with local object,
-* CRUD with Mongoose / MongoDB,
-* Simple Relationship Between Models,
-* Simple Filter by "Category,
-* Register,
-* Login,
-* Jwt Token,
-* Multi Tokens,
-* Logged User,
-* Logout One or All Tokens
+## About
 
-Project using yarn, run:
+This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+
+## Getting Started
+
+Getting up and running is as easy as 1, 2, 3.
+
+1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+2. Install your dependencies
+
+    ```
+    cd path/to/Finspire-Hackathon
+    npm install
+    ```
+
+3. Start your app
+
+    ```
+    npm start
+    ```
+
+## Testing
+
+Simply run `npm test` and all your tests in the `test/` directory will be run.
+
+## Scaffolding
+
+Feathers has a powerful command line interface. Here are a few things it can do:
+
 ```
-yarn install
-```
-and then:
-```
-yarn dev
+$ npm install -g @feathersjs/cli          # Install Feathers CLI
+
+$ feathers generate service               # Generate a new Service
+$ feathers generate hook                  # Generate a new Hook
+$ feathers help                           # Show all commands
 ```
 
-Version: 0.0.2
+## Help
+
+For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
